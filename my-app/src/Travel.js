@@ -4,9 +4,9 @@ const Travel = ({ destination, country, photo, distance }) => (
   <figure>
     <img src={photo} alt={photo} />
     <figcaption>
-      <blockquote>{destination}</blockquote>
-      <cite>{country}</cite>
-      <cite>{distance}</cite>
+      <p>{destination}</p>
+      <p>{country}</p>
+      <p>{distance}</p>
     </figcaption>
   </figure>
 );

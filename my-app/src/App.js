@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Travels from "./Travels"
 import Travel from "./Travel";
 
 class App extends Component {
@@ -24,6 +24,7 @@ class App extends Component {
           photo="http://static.asiawebdirect.com/m/bangkok/portals/bali-indonesia-com/homepage/magazine/bali-must-see-temples/pagePropertiesImage/bali-temples.jpg.jpg"
           distance=" Distance : 11 714 Km"
         />
+        <Travels/>
         
 
       </div>
